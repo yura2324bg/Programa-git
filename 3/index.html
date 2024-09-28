@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Estudiantes</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">Gestión de Estudiantes</a>
+        </nav>
+    </header>
+
+    <main class="container mt-5">
+        <section id="student-form" class="p-4">
+            <h2 class="text-center">Formulario de Estudiantes</h2>
+            <form id="form">
+                <div class="form-group">
+                    <label for="id">ID:</label>
+                    <input type="text" id="id" class="form-control custom-input" placeholder="ID del estudiante">
+                </div>
+                <div class="form-group">
+                    <label for="first-name">Nombre:</label>
+                    <input type="text" id="first-name" class="form-control custom-input" placeholder="Nombre del estudiante">
+                </div>
+                <div class="form-group">
+                    <label for="last-name">Apellido:</label>
+                    <input type="text" id="last-name" class="form-control custom-input" placeholder="Apellido del estudiante">
+                </div>
+                <div class="form-group">
+                    <label for="grade">Grado:</label>
+                    <input type="text" id="grade" class="form-control custom-input" placeholder="Grado del estudiante">
+                </div>
+                <button type="submit" class="btn btn-custom">Ingresar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="bg-dark text-white text-center py-3">
+        <p>© 2024 Tu Institución. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
